@@ -21,3 +21,7 @@ Boundary values are `-1,0`, `99,100`, `999,1000`.
 | Is existing and has loyalty card  | T | T | F | F  | T  | T  | F  | F |
 | Is existing and has coupon        | T | F | T | F  | T  | F  | T  | F |
 | Discount size                     | - | - | - | 15 | 30 | 10 | 20 | 0 |
+
+# ATM state diagram
+
+![atm state diagram](ATM state diagram.png)
