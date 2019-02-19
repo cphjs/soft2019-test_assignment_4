@@ -24,4 +24,4 @@ Boundary values are `-1,0`, `99,100`, `999,1000`.
 
 # ATM state diagram
 
-![atm state diagram](ATM\ state\ diagram.png)
+![atm state diagram]("/ATM state diagram.png")
