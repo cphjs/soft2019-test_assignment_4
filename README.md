@@ -25,7 +25,7 @@ Boundary values are `-1,0`, `99,100`, `999,1000`.
 Each column in the decision table represents a set of inputs to a test, and the expected output(with `-` meaning invalid input). In the tests I chose to separate the tests expecting valid and the ones throwing an exception to keep the test code more readable, although it is not necessary. This table covers all possible inputs. If there were more, testing all of them could become unfeasible. To combat that, a technique "pair-wise" testing could be employed. The idea behind it is _testing all unique pairs of input_. The decision table implies 8 different tests, with pair-wise testing this would go down to 4. Since 8 is not a very large number, and there is no performance or any other impact by testing all combinations, I decided to do so.
 
 
-| Conditiion                        | Values |
+| Conditiion                        |||||||||
 | --------------------------------- |:-:|:-:|:-:|:--:|:--:|:--:|:--:|:-:|
 | New customer                      | T | T | T | T  | F  | F  | F  | F |
 | Is existing and has loyalty card  | T | T | F | F  | T  | T  | F  | F |
